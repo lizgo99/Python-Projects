@@ -1,0 +1,1 @@
+state_data = data[data.state == answer_state]

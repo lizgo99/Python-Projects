@@ -1,0 +1,3 @@
+ke()
+    food = Food()
+    scoreboard = 

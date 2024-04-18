@@ -1,6 +1,6 @@
 import os
 from Hangman_words import word_list
-from Hangman_art import logo, stages
+from art import hangman_logo, stages
 
 # chosen_word = random.choice(word_list)
 chosen_word = "math"
@@ -9,7 +9,7 @@ word_length = len(chosen_word)
 end_of_game = False
 lives = 6
 
-print(logo)
+print(hangman_logo)
 
 #Testing code
 # print(f'Pssst, the solution is {chosen_word}.')
