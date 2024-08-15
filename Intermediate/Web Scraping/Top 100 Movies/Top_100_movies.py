@@ -10,7 +10,7 @@ soup = BeautifulSoup(movies_web_page, "html.parser")
 movie_titles = [title.getText() for title in soup.find_all(name="h3", class_="title")]
 movie_titles = movie_titles[::-1]
 
-with open("/Users/lizgokhvat/Desktop/Projects/Python_Projects/Intermediate/Web Scraping/bs4-start/movies.txt", "w") as movies_file:
+with open("/Users/lizgokhvat/Desktop/Projects/Python_Projects/Intermediate/Web Scraping/Top 100 Movies/movies.txt", "w") as movies_file:
     for title in movie_titles:
         movies_file.write(title + '\n')
     
